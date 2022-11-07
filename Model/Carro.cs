@@ -8,7 +8,6 @@ namespace Model;
 
 public class Carro
 {
-
     public String Placa { get; set; }
 
     public Carro(String placa)
