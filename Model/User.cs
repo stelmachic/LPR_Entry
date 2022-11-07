@@ -11,8 +11,8 @@ public class User
     protected DateTime date_of_birth;
     protected String phone;
     protected String edv;
-
-     public void setName(String name)
+    
+    public void setName(String name)
     {
         this.name = name;
     }
