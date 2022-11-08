@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 namespace Model;
 public class User
 {
-    protected String name;
-    protected DateTime date_of_birth;
-    protected String phone;
-    protected String edv;
-    protected String admin;
+    public String name;
+    public DateTime date_of_birth;
+    public String phone;
+    public String edv;
+    public String admin;
     public string Name{get;set; }
     public string Date_of_birth{get;set;}
     public string Phone{get;set;}
