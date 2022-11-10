@@ -8,14 +8,9 @@ using Microsoft.EntityFrameworkCore;
 namespace Model;
 public class User
 {
-    public String name;
-    public DateTime date_of_birth;
-    public String phone;
-    public String edv;
-    public String admin;
-    public string Name{get;set; }
-    public string Date_of_birth{get;set;}
-    public string Phone{get;set;}
-    public string Edv{get;set;}
-    public string Admin{get;set;}
+    public String name{get;set; }
+    public DateTime date_of_birth{get;set; }
+    public String phone{get;set; }
+    public String edv{get;set; }
+    public String admin{get;set; }
 }
